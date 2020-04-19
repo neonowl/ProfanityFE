@@ -1,4 +1,5 @@
 <settings>
+	<highlight fg='ffffff'>Also here:.*</highlight>
 	<highlight fg='9090ff'>^(?:You gesture|You intone a phrase of elemental power|You recite a series of mystical phrases|You trace a series of glowing runes|Your hands glow with power as you invoke|You trace a simple rune while intoning|You trace a sign while petitioning the spirits|You trace an intricate sign that contorts in the air).*$</highlight>
 	<highlight fg='9090ff'>^(?:Cast Roundtime 3 Seconds\.|Your spell is ready\.)$</highlight>
 	<highlight fg='9090ff'>^.*remaining\. \]$</highlight>
@@ -15,6 +16,73 @@
 	<highlight fg='ffffff'>^.*(?:falls slack against the floor|falls slack against the ground|falls to the floor, motionless|falls to the ground dead|falls to the ground motionless|and dies|and lies still|goes still|going still)\.$</highlight>
 	<highlight fg='ffffff'>^.* is stunned!$|^You come out of hiding\.$</highlight>
 	<highlight fg='ffaaaa'>.*ruining your hiding place\.$|^You are no longer hidden\.$|^\s*You are (?:stunned|knocked to the ground).*|^You are unable to remain hidden!$|^You are visible again\.$|^You fade into sight\.$|^You fade into view.*|^You feel drained!$|^You have overextended yourself!$|^You feel yourself going into shock!$</highlight>
+
+	<!-- BOXES -->
+	<highlight fg='808000'>[^\w]box</highlight>
+	<highlight fg='808000'>[^\w]caddy</highlight>
+	<highlight fg='808000'>[^\w]crate</highlight>
+	<highlight fg='808000'>[^\w]trunk</highlight>
+	<highlight fg='808000'>[^\w]casket</highlight>
+	<highlight fg='808000'>[^\w]skippet</highlight>
+	<highlight fg='808000'>[^\w]chest</highlight>
+	<highlight fg='808000'>[^\w]coffer</highlight>
+	<highlight fg='808000'>[^\w]strongbox</highlight>
+
+	<!-- GEMS -->
+	<highlight fg='00ffff'>[^\w]agate</highlight>
+	<highlight fg='00ffff'>[^\w]alexandrite</highlight>
+	<highlight fg='00ffff'>[^\w]amber</highlight>
+	<highlight fg='00ffff'>[^\w]amethyst</highlight>
+	<highlight fg='00ffff'>[^\w]carnelian</highlight>
+	<highlight fg='00ffff'>[^\w]chalcedony</highlight>
+	<highlight fg='00ffff'>[^\w]citrine</highlight>
+	<highlight fg='00ffff'>[^\w]coral</highlight>
+	<highlight fg='00ffff'>[^\w]diamond</highlight>
+	<highlight fg='00ffff'>[^\w]emerald</highlight>
+	<highlight fg='00ffff'>[^\w]garnet</highlight>
+	<highlight fg='00ffff'>[^\w]jade</highlight>
+	<highlight fg='00ffff'>[^\w]jasper</highlight>
+	<highlight fg='00ffff'>[^\w]lazuli</highlight>
+	<highlight fg='00ffff'>[^\w]moonstone</highlight>
+	<highlight fg='00ffff'>[^\w]onyx</highlight>
+	<highlight fg='00ffff'>[^\w]opal</highlight>
+	<highlight fg='00ffff'>[^\w]sapphire</highlight>
+	<highlight fg='00ffff'>[^\w]spinel</highlight>
+	<highlight fg='00ffff'>[^\w]topaz</highlight>
+	<highlight fg='00ffff'>[^\w]tourmaline</highlight>
+	<highlight fg='00ffff'>[^\w]pearl</highlight>
+	<highlight fg='00ffff'>[^\w]turqoise</highlight>
+	<highlight fg='ff00ff'>[^\w]slim</highlight>
+	<highlight fg='ff00ff'>[^\w]alfar</highlight>
+	<highlight fg='ff00ff'>[^\w]warrior</highlight>
+
+	<!--- Death Messages --> 
+	<highlight fg='ff5160'>^.*(?:slack against the floor|gurgles and falls|lets out a grating bellow|coughs up some blood|collapses into|eyes glaze over|falls to the floor|falls to the ground|and lies still|goes still|going still)\.$</highlight>
+	
+	<highlight fg='800000'>^An armored warklin crumbles.*</highlight>
+	<highlight fg='800000'>^.*a grating bellow.*</highlight>
+	<highlight fg='800000'>^The scout gurgles.*</highlight>
+	<highlight fg='800000'>^The scout coughs up.*</highlight>
+	<highlight fg='800000'>^The wind hound lets loose.*</highlight>
+	<highlight fg='800000'>^A zombie stomper falls belly-up.*</highlight>
+	<highlight fg='800000'>^.*eyes glaze over.*</highlight>
+	<highlight fg='800000'>^.*closing its eyes forever.*</highlight>
+	<highlight fg='800000'>^.*eyes roll back in its head.*</highlight>
+	<highlight fg='800000'>^.*one last time and collapses.*</highlight>
+	<highlight fg='800000'>^A storm bull expires.*</highlight> 
+
+	<highlight fg='ffffff'>^You begin chanting a mantra.*</highlight>
+	<highlight fg='ffffff'>^You trace a.*</highlight>
+
+	<highlight fg='ff00ff'>^A feeling of shock washes through your veins.*</highlight> 
+	<highlight fg='ff00ff'>^A hulking Xala'shar magus glowers darkly at.*</highlight> 
+
+	<highlight fg='0000ff'>^.*begins to advance on you.*</highlight>
+
+	<highlight fg='00ffff'>^You feel a slight pressure as a spell unravels.*</highlight>
+	<highlight fg='00ffff'>^You feel a splash of heat as a spell dissipates.*</highlight>
+	<highlight fg='00ff00'>^You sense your ability to thwart incoming magics slowly return.*</highlight>  
+
 	<preset id='whisper' fg='66ff66'/>
 	<preset id='speech' fg='66ff66'/>
 	<preset id='roomName' fg='ffffff'/>
